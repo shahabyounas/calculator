@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+
+h1,
+p {
+  font-family: Lato;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.screen {
+  overflow-y: auto;
+  text-align: end;
+  margin: auto 1rem 1rem 1rem;
+  overflow-wrap: break-word;
+}
+
+.screen-result {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.calc-wraper {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 20rem;
+  height: 35rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.keypaid-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  background-color: #f8f8f8;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.keypaid {
+  margin: 15px;
+  padding: 0.5rem;
+}
+
+.keypaid-button {
+  height: 3rem;
+  width: 3rem;
+  margin: 10px;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px;
+  background-color: #f8f8f8;
+  border: none;
+}
+
+.keypaid-button:nth-child(4n + 4) {
+  color: #f37979;
+}
+
+.keypaid-equal-btn {
+  width: 100%;
+  background-color: #4285f4;
+  color: white;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+
+  margin-top: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 8px;
+  border: none;
+}
